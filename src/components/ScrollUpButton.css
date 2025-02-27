@@ -1,7 +1,0 @@
-.scroll-up-button button {
-    transition: opacity 0.3s ease-in-out;
-}
-
-.scroll-up-button button:hover {
-    background-color: #555;
-} 
