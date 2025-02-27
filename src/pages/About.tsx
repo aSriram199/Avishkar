@@ -15,12 +15,11 @@ const About = () => {
           <div>
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 uppercase">Introduction</h2>
             <p className="text-lg sm:text-xl text-justify leading-relaxed">
-              Avishkar, the flagship event of IEEE - VBIT SB, is a Technical Paper Presentation competition held exclusively for
-              the freshmen of VBIT. In 2011, Avishkar was awarded the esteemed 'Darrel Chong Gold Student Activity Award' in
-              recognition of organizing Avishkar consecutively for five years. Avishkar is exclusively held for the first-year students
-              of VBIT, offering them a platform to present their innovative ideas while improving their technical knowledge and
-              communication skills. Avishkar has played a key role in encouraging research and critical thinking among first year
-              students.
+              Avishkar, the flagship event of IEEE - VBIT SB, is held exclusively for the freshmen of VBIT. In 2011, Avishkar was
+              awarded the esteemed 'Darrel Chong Gold Student Activity Award' in recognition of organizing Avishkar
+              consecutively for five years. Avishkar offers a platform to present their innovative ideas while improving their
+              technical knowledge and communication skills. Avishkar has played a key role in encouraging research and critical
+              thinking among first year students.
             </p>
           </div>
 
@@ -28,25 +27,33 @@ const About = () => {
           <div>
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 uppercase">What is Avishkar?</h2>
             <p className="text-lg sm:text-xl text-justify leading-relaxed mb-4">
-              Avishkar is a Technical Paper Presentation competition, where participants address real-world challenges and
-              showcase innovative solutions. It provides a valuable platform to expand knowledge, improve presentation and
-              communication abilities, and foster self-confidence. Participants will have the chance to showcase their research and
-              technical expertise in front of a group of experts. The event encourages a mindset of innovation and creative problem
-              solving.
+              Avishkar is a Technical Paper Presentation competition that provides students with the opportunity to address real-
+              world challenges and suggest innovative solutions. Participants will showcase their technical expertise through
+              presentations. This competition plays a key role in the professional development of VBIT freshmen, providing them
+              with essential problem-solving skills and real-world exposure.
             </p>
-            <p className="text-lg sm:text-xl leading-relaxed">
-              It is structured in two rounds:
+            <p className="text-lg sm:text-xl leading-relaxed mb-4">
+              It is structured into two rounds:
             </p>
-            <ul className="list-disc pl-8 text-lg sm:text-xl mt-2">
+            <ul className="list-disc pl-8 text-lg sm:text-xl mb-4">
               <li>Round 1: Idea Presentation Round</li>
               <li>Round 2: Final Round</li>
             </ul>
+            <p className="text-lg sm:text-xl text-justify leading-relaxed mb-4">
+              During the initial stage, participants are assigned to designated halls for their presentations. Each team is given a
+              specific amount of time for presenting their ideas and two minutes for the Queries.
+            </p>
+            <p className="text-lg sm:text-xl text-justify leading-relaxed">
+              After Round 2, a panel of judges will evaluate the presentations and select the best participants based on the innovative
+              ideas, technical expertise and presentation skills. The top participants will be recognized for their outstanding
+              contributions.
+            </p>
           </div>
 
           {/* RULES AND REGULATIONS */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 uppercase">Rules and Regulations</h2>
-            <p className="text-lg sm:text-xl mb-4">Participants must follow the mentioned rules and regulations.</p>
+            <p className="text-lg sm:text-xl mb-4">Participants should follow the mentioned rules and regulations.</p>
             
             {/* ABSTRACT */}
             <h3 className="text-xl sm:text-2xl font-semibold mb-3">ABSTRACT:</h3>
@@ -91,13 +98,15 @@ const About = () => {
                   <li>Slide 6: Feasibility of the Solution</li>
                   <li>Slide 7: Comparing with Existing Solutions</li>
                   <li>Slide 8: Applications</li>
-                  <li>Slide 9: Queries?</li>
+                  <li>Slide 9: Queries</li>
                   <li>Slide 10: Thank You</li>
                 </ul>
               </li>
               <li>The homepage must consist of "AVISHKAR" along with your Name, Roll Number and Branch & Section.</li>
+              <li>"AVISHKAR" must be in capital letters, bold and font size 80.</li>
               <li>Use Times New Roman font in the PPT.</li>
               <li>No animations or transitions should be used in the PPT.</li>
+              <li>The subheadings of the slide 2, slide 3, slide 4, slide 5, slide 6, slide 7 and slide 8 must be in font size 40 and the content font size should be 20.</li>
               <li>Use the same file naming format for the PPT as you did for the abstract.</li>
             </ul>
 
@@ -108,19 +117,19 @@ const About = () => {
                 <li>After submitting the abstract, you will receive a sample PPT in IEEE format.</li>
                 <li>The abstract must be submitted as a .docx file.</li>
                 <li>Name the abstract file as follows: 'Name_last3digitsofyourRollnumber'.</li>
-                <li>Example file names:
+                <li>Example file names for Abstract:
                   <ul className="list-decimal pl-8 mt-2">
                     <li>Aneesh_314.docx</li>
                     <li>Abhirama_112_Lohitha_301.docx</li>
                   </ul>
                 </li>
-                <li>Example PPT names:
+                <li>Example file names for PPT:
                   <ul className="list-decimal pl-8 mt-2">
                     <li>Lohitha_314.pptx</li>
                     <li>Aneesh_112_Shreshta_3A1.pptx</li>
                   </ul>
                 </li>
-                <li className="font-semibold mt-4">Both Abstract and PPT must be submitted within the provided deadline.</li>
+                <li className="font-semibold mt-4">Both the Abstract and PPT must be submitted by the provided deadline.</li>
               </ul>
             </div>
           </div>
