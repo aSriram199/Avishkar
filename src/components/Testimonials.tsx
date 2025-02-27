@@ -111,7 +111,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-8 mb-16">
             <div className="w-48 h-1 bg-white"></div>
-            <h2 className="text-[36px] sm:text-[48px] sm:text-[56px] font-bold text-white whitespace-nowrap">Testimonials</h2>
+            <h2 className="text-[36px] sm:text-[48px] font-bold text-white whitespace-nowrap">Testimonials</h2>
             <div className="w-48 h-1 bg-white"></div>
           </div>
         </div>

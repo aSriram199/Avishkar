@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Instagram, Linkedin } from 'lucide-react';
 import { getImagePath } from '../utils/imageUtils';
-import { useState } from 'react';
 
 // Team member data
 const teamMembers = [
