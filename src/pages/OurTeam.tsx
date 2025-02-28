@@ -1,6 +1,33 @@
 import { motion } from 'framer-motion';
 import { Instagram, Linkedin } from 'lucide-react';
 import { getImagePath } from '../utils/imageUtils';
+import { useState } from 'react';
+
+// Add ImagePreloader component
+const ImagePreloader = ({ src, alt, className }: { src: string; alt: string; className?: string }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  return (
+    <div className="relative w-full h-full">
+      {isLoading && (
+        <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+          <div className="w-12 h-12 border-4 border-[#99D6FF] border-t-transparent rounded-full animate-spin"></div>
+        </div>
+      )}
+      <img
+        src={src}
+        alt={alt}
+        className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
+        onLoad={() => setIsLoading(false)}
+        onError={(e) => {
+          const target = e.target as HTMLImageElement;
+          target.src = getImagePath('/images/default-avatar.png');
+          setIsLoading(false);
+        }}
+      />
+    </div>
+  );
+};
 
 // Team member data
 const teamMembers = [
@@ -229,21 +256,10 @@ const OurTeam = () => {
                 </div>
 
                 <div className="aspect-[3/4] overflow-hidden relative">
-                  <div className="absolute inset-0 bg-gray-200 animate-pulse" />
-                  
-                  <img
+                  <ImagePreloader
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover relative z-[1] transition-opacity duration-300"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = getImagePath('/images/default-avatar.png');
-                    }}
-                    onLoad={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.opacity = '1';
-                    }}
-                    style={{ opacity: 0 }}
+                    className="w-full h-full object-cover"
                   />
                 </div>
 

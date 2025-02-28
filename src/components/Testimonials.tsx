@@ -106,10 +106,10 @@ const Testimonials = () => {
   }, [page]);
 
   return (
-    <section className="py-24 sm:py-32 bg-[#0077B6] overflow-hidden">
+    <section className="py-16 sm:py-24 bg-[#0077B6] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <div className="flex items-center justify-center gap-8 mb-16">
+        <div className="text-center mb-12">
+          <div className="flex items-center justify-center gap-8 mb-12">
             <div className="w-48 h-1 bg-white"></div>
             <h2 className="text-[36px] sm:text-[48px] font-bold text-white whitespace-nowrap">Testimonials</h2>
             <div className="w-48 h-1 bg-white"></div>

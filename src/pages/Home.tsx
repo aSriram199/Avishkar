@@ -73,8 +73,8 @@ const Home: React.FC = () => {
       </section>
 
       {/* Countdown Section */}
-      <section className="py-8 sm:py-12 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-8 sm:py-12 bg-white relative">
+      <section id="about" className="py-12 sm:py-16 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-4 sm:gap-8 mb-8">
@@ -114,10 +114,10 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Gallery Section - reduced top padding */}
-      <section className="pt-0 pb-8 sm:pb-12 bg-white">
+      {/* Gallery Section */}
+      <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
+          <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-4 sm:gap-8 mb-8">
               <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
               <h2 className="text-[36px] sm:text-[48px] font-bold text-[#15A6F7] whitespace-nowrap">Gallery</h2>

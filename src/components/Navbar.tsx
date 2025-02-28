@@ -80,13 +80,13 @@ const Navbar = () => {
                     <ChevronDown className="ml-1 h-4 w-4" />
                   </button>
                   {isDropdownOpen && (
-                    <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
+                    <div className="absolute right-0 mt-6 w-48 bg-[#0077B6] rounded-md shadow-lg py-2" style={{ top: 'calc(100% + 5px)' }}>
                       {item.items.map((subItem) => (
                         <Link
                           key={subItem.name}
                           to={subItem.href}
                           onClick={handleNavClick}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          className="block px-6 py-3 text-base text-white hover:bg-[#0099E6] transition-colors text-center font-medium"
                         >
                           {subItem.name}
                         </Link>
@@ -141,13 +141,13 @@ const Navbar = () => {
                         <ChevronDown className="ml-1 h-4 w-4" />
                       </button>
                       {isDropdownOpen && (
-                        <div className="pl-4 bg-white/5 rounded-md mt-1">
+                        <div className="pl-4 bg-[#0099E6]/20 rounded-md mt-1">
                           {item.items.map((subItem) => (
                             <Link
                               key={subItem.name}
                               to={subItem.href}
                               onClick={handleNavClick}
-                              className="block px-4 py-2 text-sm text-white hover:text-black hover:bg-white/10"
+                              className="block px-6 py-3 text-base text-white hover:bg-[#0099E6]/30 transition-colors"
                             >
                               {subItem.name}
                             </Link>

@@ -58,7 +58,7 @@ const Gallery = () => {
   // Add window resize listener to detect mobile
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768px is typical mobile breakpoint
+      setIsMobile(window.innerWidth < 640); // Changed to 640px (sm breakpoint) for true mobile devices
     };
 
     checkMobile();
@@ -68,7 +68,7 @@ const Gallery = () => {
   }, []);
 
   const handleImageClick = (imageSrc: string) => {
-    if (!isMobile) {
+    if (!isMobile) {  // This will now work for all views above 640px
       setSelectedImage(imageSrc);
     }
   };
@@ -93,7 +93,7 @@ const Gallery = () => {
                 transition={{ duration: 0.2 }}
                 className={`relative w-full aspect-[4/3] rounded-3xl overflow-hidden ${
                   !isMobile ? 'cursor-pointer' : ''
-                } shadow-lg`}
+                } shadow-lg hover:shadow-xl`}
                 onClick={() => handleImageClick(image.src)}
               >
                 <img
