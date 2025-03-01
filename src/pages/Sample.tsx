@@ -37,7 +37,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src="/Avishkar/samples/vid.mp4" type="video/mp4" />
+                <source src="/Avishkar/samples/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
