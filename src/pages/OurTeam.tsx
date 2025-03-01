@@ -50,8 +50,8 @@ const teamMembers = [
     name: "Lohitha",
     role: "Marketing",
     image: getImagePath("/images/Lohitha.png"),
-    instagram: "https://www.instagram.com/asriram199/",
-    linkedin: "https://www.linkedin.com/in/asriram199/"
+    instagram: "https://www.instagram.com/lohitha_reddy_92?utm_source=qr&igsh=MTFidHhjYzFkbG0xNA==",
+    linkedin: "Check out VANGALA LOHITHA’s profile on LinkedIn https://in.linkedin.com/in/vangala-lohitha-a285902b1"
   },
   {
     name: "Abhirama Praneeth AVK",

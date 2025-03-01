@@ -114,8 +114,7 @@ const Contact = () => {
 
             {/* Right Side - Contact Form */}
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-2">Contact Us</h2>
-              <p className="text-gray-600 mb-6">You can reach us anytime</p>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-6">Contact Us</h2>
 
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

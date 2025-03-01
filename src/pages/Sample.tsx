@@ -29,15 +29,15 @@ const Sample = () => {
 
         {/* Sample Video Section */}
         <div className="mb-12 sm:mb-16">
-        
           <div className="max-w-6xl mx-auto rounded-lg shadow-lg overflow-hidden">
             <div className="relative w-full" style={{ paddingTop: '56.25%' }}> {/* 16:9 aspect ratio */}
               <video 
                 className="absolute top-0 left-0 w-full h-full object-contain bg-gray-100"
                 controls
                 preload="metadata"
+                playsInline
               >
-                <source src="/Avishkar/samples/vid.mp4" type="video/mp4" />
+                <source src="/sample/vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

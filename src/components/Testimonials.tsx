@@ -118,7 +118,7 @@ const Testimonials = () => {
 
         <div className="relative max-w-7xl mx-auto flex justify-center items-center gap-4 custom:gap-8">
           {/* Previous Card - Hidden below 900px */}
-          <div className="hidden custom:block w-[450px] h-[600px] bg-[#E8F4F8] rounded-3xl p-6 sm:p-8 shadow-lg opacity-50">
+          <div className="hidden custom:block w-[450px] h-[550px] bg-[#E8F4F8] rounded-3xl p-6 sm:p-8 shadow-lg opacity-50">
             <div className="flex items-center gap-4 sm:gap-6 mb-4 sm:mb-8">
               <img
                 src={testimonials[(page - 1 + testimonials.length) % testimonials.length].image}
@@ -142,7 +142,7 @@ const Testimonials = () => {
           </div>
 
           {/* Animated Current Card - Updated with mobile responsive sizes */}
-          <div className="relative w-[300px] sm:w-[580px] h-[500px] sm:h-[650px]">
+          <div className="relative w-[300px] sm:w-[580px] h-[400px] sm:h-[500px] custom:h-[550px]">
             <AnimatePresence initial={false} custom={direction} mode="popLayout">
               <motion.div
                 key={page}
@@ -163,7 +163,7 @@ const Testimonials = () => {
                     paginate(-1);
                   }
                 }}
-                className="absolute top-0 left-0 w-full h-full bg-[#E8F4F8] rounded-3xl p-4 sm:p-8 shadow-xl"
+                className="absolute top-0 left-0 w-full h-full bg-[#E8F4F8] rounded-3xl p-4 sm:p-8 shadow-xl overflow-y-auto"
               >
                 <div className="flex items-center gap-4 sm:gap-6 mb-4 sm:mb-8">
                   <img
@@ -188,7 +188,7 @@ const Testimonials = () => {
           </div>
 
           {/* Next Card - Hidden below 900px */}
-          <div className="hidden custom:block w-[450px] h-[600px] bg-[#E8F4F8] rounded-3xl p-6 sm:p-8 shadow-lg opacity-50">
+          <div className="hidden custom:block w-[450px] h-[550px] bg-[#E8F4F8] rounded-3xl p-6 sm:p-8 shadow-lg opacity-50 overflow-none">
             <div className="flex items-center gap-4 sm:gap-6 mb-4 sm:mb-8">
               <img
                 src={testimonials[(page + 1) % testimonials.length].image}
