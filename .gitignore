@@ -33,4 +33,5 @@ lerna-debug.log*
 
 # Deployment cache
 node_modules/.cache
-node_modules/.cache/gh-pages 
+node_modules/.cache/gh-pages/
+node_modules/.cache/gh-pages/https!github.com!aSriram199!Avishkar.git 
