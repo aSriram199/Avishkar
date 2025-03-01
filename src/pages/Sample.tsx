@@ -1,12 +1,13 @@
 import { Download } from 'lucide-react';
+import { getImagePath } from '../utils/imageUtils';
 
 const Sample = () => {
   const handleDownload = (fileType: string) => {
     const fileMap = {
-      'individual': '/Avishkar/samples/SampleAbstractIndividual.pdf',
-      'team': '/Avishkar/samples/SampleAbstractTeam.pdf',
-      'ppt': '/Avishkar/samples/ppt.pptx',
-      'problems': '/Avishkar/samples/ProblemStatements.pdf'
+      'individual': getImagePath('/samples/SampleAbstractIndividual.pdf'),
+      'team': getImagePath('/samples/SampleAbstractTeam.pdf'),
+      'ppt': getImagePath('/samples/ppt.pptx'),
+      'problems': getImagePath('/samples/ProblemStatements.pdf')
     };
 
     const filePath = fileMap[fileType as keyof typeof fileMap];
@@ -37,7 +38,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src="/Avishkar/samples/video.mp4" type="video/mp4" />
+                <source src={getImagePath('/samples/video.mp4')} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
