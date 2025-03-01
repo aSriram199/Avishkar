@@ -33,7 +33,6 @@ const Contact = () => {
         'service_tmj6d53',
         'template_0jrv38j',
         {
-          to_email: 'test0009r@gmail.com',
           from_name: `${formData.firstName} ${formData.lastName}`,
           from_email: formData.email,
           phone: formData.phone,
@@ -115,7 +114,7 @@ const Contact = () => {
 
             {/* Right Side - Contact Form */}
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-2">Get in Touch</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-2">Contact Us</h2>
               <p className="text-gray-600 mb-6">You can reach us anytime</p>
 
               <form onSubmit={handleSubmit} className="space-y-4">

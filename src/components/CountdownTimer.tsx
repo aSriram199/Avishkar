@@ -43,7 +43,7 @@ const CountdownTimer = () => {
     <div className="text-center">
       <div className="flex items-center justify-center gap-8 mb-16">
         <div className="w-48 h-1 bg-[#15A6F7]"></div>
-        <h1 className="text-[48px] sm:text-[56px] font-bold text-[#15A6F7] whitespace-nowrap">
+        <h1 className="text-[36px] sm:text-[48px] font-bold text-[#15A6F7] whitespace-nowrap">
           Event Starts In
         </h1>
         <div className="w-48 h-1 bg-[#15A6F7]"></div>

@@ -212,7 +212,7 @@ const Testimonials = () => {
           </div>
 
           {/* Navigation Dots */}
-          <div className="absolute -bottom-16 custom:-bottom-20 left-1/2 transform -translate-x-1/2 flex justify-center space-x-2">
+          <div className="absolute -bottom-12 custom:-bottom-20 left-1/2 transform -translate-x-1/2 flex justify-center space-x-2">
             {testimonials.map((_, index) => (
               <button
                 key={index}
