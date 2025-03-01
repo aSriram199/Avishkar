@@ -1,5 +1,5 @@
 import { Download } from 'lucide-react';
-import { getImagePath, getLFSFilePath } from '../utils/imageUtils';
+import { getImagePath } from '../utils/imageUtils';
 
 const Sample = () => {
   const handleDownload = (fileType: string) => {
@@ -38,7 +38,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src={getImagePath('/samples/vid.mp4')} type="video/mp4" />
+                <source src="https://raw.githubusercontent.com/aSriram199/Avishkar/gh-pages/samples/vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
