@@ -11,7 +11,7 @@ export const getLFSFilePath = (path: string): string => {
   if (import.meta.env.PROD) {
     // You may need to adjust this URL based on your hosting setup
     // This is just an example structure for GitHub LFS
-    return `https://media.githubusercontent.com/media/YOUR_USERNAME/YOUR_REPO/main/public/${cleanPath}`;
+    return `https://media.githubusercontent.com/media/aSriram199/Avishkar/main/public/${cleanPath}`;
   }
   
   // Use standard path in development
