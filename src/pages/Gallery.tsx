@@ -54,6 +54,7 @@ const galleryImages = [
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [loadingImages, setLoadingImages] = useState<{ [key: number]: boolean }>({});
 
   // Add window resize listener to detect mobile
   useEffect(() => {
@@ -73,8 +74,27 @@ const Gallery = () => {
     }
   };
 
+  const handleImageLoad = (id: number) => {
+    setLoadingImages((prev) => ({ ...prev, [id]: false }));
+  };
+
   return (
     <div className="min-h-screen bg-white py-16">
+      <style>{`
+        .loader {
+          border: 4px solid rgba(0, 0, 0, 0.1);
+          border-left-color: #15A6F7;
+          border-radius: 50%;
+          width: 24px;
+          height: 24px;
+          animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      `}</style>
       <div className="text-center mb-8 mt-16">
         <div className="flex items-center justify-center gap-4 sm:gap-8 mb-8">
           <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
@@ -96,10 +116,17 @@ const Gallery = () => {
                 } shadow-lg hover:shadow-xl`}
                 onClick={() => handleImageClick(image.src)}
               >
+                {loadingImages[image.id] !== false && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
+                    <div className="loader"></div>
+                  </div>
+                )}
                 <img
                   src={image.src}
                   alt={image.alt}
                   className="w-full h-full object-cover"
+                  onLoad={() => handleImageLoad(image.id)}
+                  onError={() => handleImageLoad(image.id)}
                 />
                 <div className={`absolute inset-0 ${
                   !isMobile ? 'bg-black/20 hover:bg-black/10' : 'bg-black/10'
