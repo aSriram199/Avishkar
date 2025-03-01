@@ -91,7 +91,15 @@ const Contact = () => {
               <div className="mt-12">
                 <h2 className="text-xl font-semibold text-gray-900 mb-2">Help Desk Support</h2>
                 <p className="text-gray-600">
-                  Our support team is available from 3:30 PM - 4:20 PM to address any concerns or queries...
+                  Our support team is available from 3:30 PM - 4:20 PM to address any concerns or queries at Pratham Block
+                </p>
+              </div>
+
+ {/* Event Inquiries Section */}
+ <div className="mt-8">
+                <h2 className="text-xl font-semibold text-gray-900 mb-2">Event Inquiries</h2>
+                <p className="text-gray-600">
+                  For Event-related questions or press inquiries, please contact us at given numbers
                 </p>
               </div>
 
@@ -103,18 +111,12 @@ const Contact = () => {
                 </p>
               </div>
 
-              {/* Event Inquiries Section */}
-              <div className="mt-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-2">Event Inquiries</h2>
-                <p className="text-gray-600">
-                  For Event-related questions or press inquiries, please contact us at given numbers
-                </p>
-              </div>
+             
             </div>
 
             {/* Right Side - Contact Form */}
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-6">Contact Us</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-6">You can reach us anytime</h2>
 
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

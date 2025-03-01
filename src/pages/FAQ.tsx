@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     question: "What is the last date for registration?",
-    answer: "The registration deadline is 28th February, 2025."
+    answer: "The registration deadline is 1st March, 2025."
   },
   {
     question: "Is there any registration fee for Avishkar 2K25?",
@@ -49,7 +49,7 @@ const faqData = [
     answer: "Yes, a specified format must be followed. Sample templates of Idea and PPT will be sent via email after the registration and are also available on the Social Media Handle."
   },
   {
-    question: "Whom do we contact in case of queries?",
+    question: "Who should I contact if I have questions?",
     answer: "For any queries, contact at:\nVenkat Ajay: 9014454476\nLohitaksh: 8851909766"
   }
 ];
