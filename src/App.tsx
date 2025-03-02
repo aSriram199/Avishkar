@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -10,11 +11,25 @@ import Sample from './pages/Sample';
 import OurTeam from './pages/OurTeam';
 import Gallery from './pages/Gallery';
 import ScrollUpButton from './components/ScrollUpButton';
+import Preloader from './components/Preloader';
 
 function App() {
+  const [contentLoaded, setContentLoaded] = useState(false);
+
+  useEffect(() => {
+    // Set content loaded after preloader animation completes
+    const timer = setTimeout(() => {
+      setContentLoaded(true);
+    }, 3000); // This should be longer than the preloader timeout (2000ms + 1000ms fade)
+    
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Router basename='/Avishkar'>
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <Preloader />
+      <div className={`min-h-screen bg-gray-50 flex flex-col ${!contentLoaded ? 'opacity-0' : 'opacity-100'}`} 
+           style={{ transition: 'opacity 0.5s ease', display: contentLoaded ? 'flex' : 'none' }}>
         <Navbar />
         <main className="flex-grow">
           <Routes>

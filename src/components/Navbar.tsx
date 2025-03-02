@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { getImagePath } from '../utils/imageUtils';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,21 +37,21 @@ const Navbar = () => {
           <div className="flex items-center gap-3 sm:gap-6 lg:gap-8">
             <Link to="/" className="flex items-center">
               <img 
-                src={getImagePath('/logo/VBIT_LOGO.png')} 
+                src="/Avishkar/logo/VBIT_LOGO.png" 
                 alt="VBIT Logo" 
                 className="h-8 sm:h-12 lg:h-16 w-auto object-contain"
               />
             </Link>
             <Link to="/" className="flex items-center">
               <img 
-                src={getImagePath('/logo/AVK_LOGO.png')} 
+                src="/Avishkar/logo/AVK_LOGO.png" 
                 alt="AVK Logo" 
                 className="h-8 sm:h-12 lg:h-14 w-auto object-contain"
               />
             </Link>
             <Link to="/" className="flex items-center">
               <img 
-                src={getImagePath('/logo/IEEE_LOGO.png')} 
+                src="/Avishkar/logo/IEEE_LOGO.png" 
                 alt="IEEE Logo" 
                 className="h-8 sm:h-12 lg:h-16 w-auto object-contain"
               />

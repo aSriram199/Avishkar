@@ -41,12 +41,12 @@ const CountdownTimer = () => {
 
   return (
     <div className="text-center">
-      <div className="flex items-center justify-center gap-8 mb-16">
-        <div className="w-48 h-1 bg-[#15A6F7]"></div>
+      <div className="flex items-center justify-center gap-4 sm:gap-8 mb-12">
+        <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
         <h1 className="text-[36px] sm:text-[48px] font-bold text-[#15A6F7] whitespace-nowrap">
           Event Starts In
         </h1>
-        <div className="w-48 h-1 bg-[#15A6F7]"></div>
+        <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
       </div>
       <div className="flex justify-center items-center">
         {timeBlocks.map(({ label, value }, index) => (

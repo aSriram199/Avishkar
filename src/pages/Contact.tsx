@@ -66,7 +66,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Side - Contact Info */}
             <div className="space-y-8 bg-white/80 rounded-2xl p-6 shadow-lg">
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 text-justify">
                 Email, call, or complete the form to resolve queries about Avishkar
               </p>
 
@@ -90,15 +90,15 @@ const Contact = () => {
               {/* Help Desk Section */}
               <div className="mt-12">
                 <h2 className="text-xl font-semibold text-gray-900 mb-2">Help Desk Support</h2>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-justify">
                   Our support team is available from 3:30 PM - 4:20 PM to address any concerns or queries at Pratham Block
                 </p>
               </div>
 
- {/* Event Inquiries Section */}
- <div className="mt-8">
+              {/* Event Inquiries Section */}
+              <div className="mt-8">
                 <h2 className="text-xl font-semibold text-gray-900 mb-2">Event Inquiries</h2>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-justify">
                   For Event-related questions or press inquiries, please contact us at given numbers
                 </p>
               </div>
@@ -106,7 +106,7 @@ const Contact = () => {
               {/* Feedback Section */}
               <div className="mt-8">
                 <h2 className="text-xl font-semibold text-gray-900 mb-2">Feedback and Suggestions</h2>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-justify">
                   We value your feedback and are continuously working to improvise our work.
                 </p>
               </div>

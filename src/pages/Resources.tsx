@@ -72,7 +72,7 @@ const Resources = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 {resource.title}
               </h2>
-              <p className="text-gray-600 text-lg mb-6">
+              <p className="text-gray-600 text-lg mb-6 text-justify">
                 {resource.description}
               </p>
               <div className="flex justify-center">

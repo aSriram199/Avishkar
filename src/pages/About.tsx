@@ -32,7 +32,7 @@ const About = () => {
               presentations. This competition encourages freshmen of VBIT to develop professionally by enhancing their problem-solving
               and communication skills.
             </p>
-            <p className="text-lg sm:text-xl leading-relaxed mb-4">
+            <p className="text-lg sm:text-xl text-justify leading-relaxed mb-4">
               It is structured into two rounds:
             </p>
             <div className="space-y-4">
@@ -57,15 +57,15 @@ const About = () => {
           {/* RULES AND REGULATIONS */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 uppercase">Rules and Regulations</h2>
-            <p className="text-lg sm:text-xl mb-4">Participants should follow the mentioned rules and regulations.</p>
+            <p className="text-lg sm:text-xl mb-4 text-justify">Participants should follow the mentioned rules and regulations.</p>
             
             {/* ABSTRACT */}
             <h3 className="text-xl sm:text-2xl font-semibold mb-3">ABSTRACT:</h3>
-            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2">
+            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2 text-justify">
               <li>The font style should be Times New Roman.</li>
               <li>The Problem statement title must be written in bold with a font size of 24.</li>
               <li>The details must include:
-                <ul className="list-decimal pl-8 mt-2">
+                <ul className="list-decimal pl-8 mt-2 text-justify">
                   <li>Name.</li>
                   <li>Branch.</li>
                   <li>Roll number.</li>
@@ -75,7 +75,7 @@ const About = () => {
               <li>The style for the details must be italics.</li>
               <li>All sub-heading must be capitalized with font size of 10.</li>
               <li>Subheadings must include:
-                <ul className="list-decimal pl-8 mt-2">
+                <ul className="list-decimal pl-8 mt-2 text-justify">
                   <li>Introduction.</li>
                   <li>Problem statement.</li>
                   <li>Motivation.</li>
@@ -90,12 +90,12 @@ const About = () => {
 
             {/* IMPORTANT NOTE */}
             <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3">IMPORTANT NOTE:</h3>
-            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2">
+            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2 text-justify">
               <li>After submitting the abstract, you will receive a sample PPT in IEEE format.</li>
               <li>The abstract must be submitted as a .docx file.</li>
               <li>Name the abstract file as follows: 'Name_last3digitsofyourRollnumber'.</li>
               <li>Example:
-                <ul className="list-decimal pl-8 mt-2">
+                <ul className="list-decimal pl-8 mt-2 text-justify">
                   <li>Aneesh_314.docx</li>
                   <li>Abhirama_112_Lohitha_301.docx</li>
                 </ul>
@@ -104,9 +104,9 @@ const About = () => {
 
             {/* PPT */}
             <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3">PPT:</h3>
-            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2">
+            <ul className="list-disc pl-8 text-lg sm:text-xl space-y-2 text-justify">
               <li>The PPT should consist of 10 slides, covering the following topics:
-                <ul className="list-decimal pl-8 mt-2">
+                <ul className="list-decimal pl-8 mt-2 text-justify">
                   <li>Slide 1: Home Page.</li>
                   <li>Slide 2: Problem Statement.</li>
                   <li>Slide 3: Problem Explanation.</li>
@@ -127,7 +127,7 @@ const About = () => {
               <li>Use the same file naming format for the PPT as you did for the abstract.</li>
               <li>Submit the Abstract and PPT before the given deadlines.</li>
               <li>Example:
-                <ul className="list-decimal pl-8 mt-2">
+                <ul className="list-decimal pl-8 mt-2 text-justify">
                   <li>Lohitha_314.pptx</li>
                   <li>Aneesh_112_Shreshta_3A1.pptx</li>
                 </ul>

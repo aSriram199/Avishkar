@@ -109,7 +109,7 @@ const FAQ = () => {
                     transition={{ duration: 0.2 }}
                     className="bg-[#E8F4F8]"
                   >
-                    <div className="px-8 py-6 text-gray-600 text-lg">
+                    <div className="px-8 py-6 text-gray-600 text-lg text-justify">
                       {faq.answer}
                     </div>
                   </motion.div>

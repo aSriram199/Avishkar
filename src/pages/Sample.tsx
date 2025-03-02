@@ -1,13 +1,12 @@
 import { Download } from 'lucide-react';
-import { getImagePath } from '../utils/imageUtils';
 
 const Sample = () => {
   const handleDownload = (fileType: string) => {
     const fileMap = {
-      'individual': getImagePath('/samples/SampleAbstractIndividual.pdf'),
-      'team': getImagePath('/samples/SampleAbstractTeam.pdf'),
-      'ppt': getImagePath('/samples/ppt.pptx'),
-      'problems': getImagePath('/samples/ProblemStatements.pdf')
+      'individual': '/Avishkar/samples/SampleAbstractIndividual.pdf',
+      'team': '/Avishkar/samples/SampleAbstractTeam.pdf',
+      'ppt': '/Avishkar/samples/ppt.pptx',
+      'problems': '/Avishkar/samples/ProblemStatements.pdf'
     };
 
     const filePath = fileMap[fileType as keyof typeof fileMap];
@@ -20,11 +19,11 @@ const Sample = () => {
     <div className="min-h-screen bg-white py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Sample Header - adjusted spacing */}
-        <div className="text-center mb-8 mt-16">
-          <div className="flex items-center justify-center gap-4 sm:gap-8 mb-8">
-            <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
+        <div className="text-center mb-8 mt-12">
+          <div className="flex items-center justify-center gap-4 sm:gap-8 mb-6">
+            <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
             <h2 className="text-[36px] sm:text-[48px] font-bold text-[#15A6F7] whitespace-nowrap">Sample</h2>
-            <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
+            <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
           </div>
         </div>
 
@@ -38,7 +37,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src="https://raw.githubusercontent.com/aSriram199/Avishkar/gh-pages/samples/vid.mp4" type="video/mp4" />
+                <source src="/Avishkar/samples/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

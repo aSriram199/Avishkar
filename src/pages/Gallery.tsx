@@ -1,52 +1,51 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
-import { getImagePath } from '../utils/imageUtils';
 
 const galleryImages = [
   {
     id: 1,
-    src: getImagePath('/gallery/g1.jpg'),
+    src: '/Avishkar/gallery/g1.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 2,
-    src: getImagePath('/gallery/g2.jpg'),
+    src: '/Avishkar/gallery/g2.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 3,
-    src: getImagePath('/gallery/g3.jpg'),
+    src: '/Avishkar/gallery/g3.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 4,
-    src: getImagePath('/gallery/g4.jpg'),
+    src: '/Avishkar/gallery/g4.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 5,
-    src: getImagePath('/gallery/g5.jpg'),
+    src: '/Avishkar/gallery/g5.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 6,
-    src: getImagePath('/gallery/g6.jpg'),
+    src: '/Avishkar/gallery/g6.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 7,
-    src: getImagePath('/gallery/g7.jpg'),
+    src: '/Avishkar/gallery/g7.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 8,
-    src: getImagePath('/gallery/g8.jpg'),
+    src: '/Avishkar/gallery/g8.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 9,
-    src: getImagePath('/gallery/g9.jpg'),
+    src: '/Avishkar/gallery/g9.jpg',
     alt: 'Avishkar 2K24 Event'
   }
 ];
@@ -95,11 +94,11 @@ const Gallery = () => {
           100% { transform: rotate(360deg); }
         }
       `}</style>
-      <div className="text-center mb-8 mt-16">
-        <div className="flex items-center justify-center gap-4 sm:gap-8 mb-8">
-          <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
+      <div className="text-center mb-8 mt-12">
+        <div className="flex items-center justify-center gap-4 sm:gap-8 mb-6">
+          <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
           <h2 className="text-[36px] sm:text-[48px] font-bold text-[#15A6F7] whitespace-nowrap">Gallery</h2>
-          <div className="w-24 sm:w-48 h-[2px] bg-[#15A6F7]"></div>
+          <div className="w-16 sm:w-32 md:w-48 h-[2px] bg-[#15A6F7]"></div>
         </div>
       </div>
 
