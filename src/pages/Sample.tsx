@@ -6,7 +6,7 @@ const Sample = () => {
       'individual': '/home/samples/SampleAbstractIndividual.pdf',
       'team': '/home/samples/SampleAbstractTeam.pdf',
       'ppt': '/home/samples/SamplePPT.pptx',
-      'problems': '/Avishkar/samples/ProblemStatements.pdf'
+      'problems': '/home/samples/ProblemStatements.pdf'
     };
 
     const filePath = fileMap[fileType as keyof typeof fileMap];
@@ -37,7 +37,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src="/Avishkar/samples/video.mp4" type="video/mp4" />
+                <source src="/home/samples/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
