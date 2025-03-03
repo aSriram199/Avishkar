@@ -5,47 +5,47 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: '/home/gallery/image1.jpg',
+    src: '/gallery/g1.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 2,
-    src: '/home/gallery/image2.jpg',
+    src: '/gallery/g2.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 3,
-    src: '/home/gallery/image3.jpg',
+    src: '/gallery/g3.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 4,
-    src: '/home/gallery/image4.jpg',
+    src: '/gallery/g4.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 5,
-    src: '/home/gallery/image5.jpg',
+    src: '/gallery/g5.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 6,
-    src: '/home/gallery/image6.jpg',
+    src: '/gallery/g6.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 7,
-    src: '/home/gallery/image7.jpg',
+    src: '/gallery/g7.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 8,
-    src: '/home/gallery/image8.jpg',
+    src: '/gallery/g8.jpg',
     alt: 'Avishkar 2K24 Event'
   },
   {
     id: 9,
-    src: '/home/gallery/image9.jpg',
+    src: '/gallery/g9.jpg',
     alt: 'Avishkar 2K24 Event'
   }
 ];

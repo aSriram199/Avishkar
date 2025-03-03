@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename='/home'>
+    <Router basename="/">
       <Preloader />
       <div className={`min-h-screen bg-gray-50 flex flex-col ${!contentLoaded ? 'opacity-0' : 'opacity-100'}`} 
            style={{ transition: 'opacity 0.5s ease', display: contentLoaded ? 'flex' : 'none' }}>

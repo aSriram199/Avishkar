@@ -20,7 +20,7 @@ const ImagePreloader = ({ src, alt, className }: { src: string; alt: string; cla
         onLoad={() => setIsLoading(false)}
         onError={(e) => {
           const target = e.target as HTMLImageElement;
-          target.src = '/home/images/default-avatar.png';
+          target.src = '/images/default-avatar.png';
           setIsLoading(false);
         }}
       />
@@ -34,28 +34,28 @@ const teamMembers = [
   {
     name: "Abhirama Praneeth",
     role: "Marketing",
-    image: '/home/images/Abhiram.png',
+    image: '/images/Abhiram.png',
     linkedin: "https://www.linkedin.com/in/abhirama-praneeth-b2300b294",
     instagram: "https://www.instagram.com/wbhirama"
   },
   {
     name: "Aneesh",
     role: "Marketing",
-    image: "/home/images/Aneesh.png",
+    image: "/images/Aneesh.png",
     instagram: "https://www.instagram.com/aneesh_veesam?igsh=MWJmMmJ5N2VlZTJ6bg==",
     linkedin: "https://www.linkedin.com/in/aneesh-veesam-779352353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   },
   {
     name: "Shreshta",
     role: "Marketing",
-    image: '/home/images/Shreshta.png',
+    image: '/images/Shreshta.png',
     linkedin: "https://www.linkedin.com/in/shreshta-amudapuram-956061352",
     instagram: "https://www.instagram.com/shreshta_29?igsh=bzhzMGZjZ3d5dzdz&utm_source=qr"
   },
   {
     name: "Lohitha",
     role: "Marketing",
-    image: '/home/images/Lohitha.png',
+    image: '/images/Lohitha.png',
     instagram: "https://www.instagram.com/lohitha_reddy_92?utm_source=qr&igsh=MTFidHhjYzFkbG0xNA==",
     linkedin: "https://in.linkedin.com/in/vangala-lohitha-a285902b1"
   },
@@ -65,28 +65,28 @@ const teamMembers = [
   {
     name: "Ruth G",
     role: "Documentation",
-    image: '/home/images/Ruth.png',
+    image: '/images/Ruth.png',
     linkedin: "https://www.linkedin.com/in/ruth-g-65578334b",
     instagram: "https://www.instagram.com/ruthgrace_3927"
   },
   {
     name: "K. Geetha Bhagyasree",
     role: "Documentation",
-    image: '/home/images/Geetha.png',
+    image: '/images/Geetha.png',
     linkedin: "https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=geetha-kumari-b612b733b",
     instagram: "https://www.instagram.com/chinni_250605"
   },
   {
     name: "Baddam Pranav Kumar",
     role: "Documentation",
-    image: '/home/images/Pranav.png',
+    image: '/images/Pranav.png',
     linkedin: "https://www.linkedin.com/in/baddam-pranav-kumar-reddy-2b5734352",
     instagram: "https://www.instagram.com/pranav_reddy_29"
   },
   {
     name: "K. Sai Kiran",
     role: "Documentation",
-    image: '/home/images/SaiKiran.jpeg',
+    image: '/images/SaiKiran.jpeg',
     linkedin: "https://www.linkedin.com/in/saikiran-kammari-373b6533b",
     instagram: "https://www.instagram.com/saiikiran_25?igsh=anZuYm9sNWZwejVl"
   },
@@ -95,28 +95,28 @@ const teamMembers = [
   {
     name: "Chiluka Deepa",
     role: "Poster Designing",
-    image: '/home/images/Deepa.jpeg',
+    image: '/images/Deepa.jpeg',
     linkedin: "https://www.linkedin.com/in/chiluka-deepa-chiluka-deepa-bb2782311",
     instagram: "https://www.instagram.com/deena_a1010"
   },
   {
     name: "P. Mrudumai",
     role: "Poster Designing",
-    image: '/home/images/Mrudhumai.png',
+    image: '/images/Mrudhumai.png',
     linkedin: "https://www.linkedin.com/in/mrudumaiperala07",
     instagram: "https://www.instagram.com/me._mruduuuuuu"
   },
   {
     name: "V. Akhil",
     role: "Poster Designing",
-    image: '/home/images/Akhil.png',
+    image: '/images/Akhil.png',
     linkedin: "https://www.linkedin.com/in/vaddeboina-akhil-7397bb310",
     instagram: "https://www.instagram.com/ahhkhil"
   },
   {
     name: "Gujjara Swarnamai",
     role: "Poster Designing",
-    image: '/home/images/Swarnamai.png',
+    image: '/images/Swarnamai.png',
     instagram: "https://www.linkedin.com/in/gujjari-swarnamai-691b4b352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     linkedin: "https://www.instagram.com/swarnamai_156?igsh=MXhvajA4dnc3MHJrZA=="
   },
@@ -125,28 +125,28 @@ const teamMembers = [
   {
     name: "K S Anirudh",
     role: "Hospitality",
-    image: '/home/images/KSAnirudh.png',
+    image: '/images/KSAnirudh.png',
     instagram: "https://www.instagram.com/ksanirudh/",
     linkedin: "https://www.linkedin.com/in/ksanirudh/"
   },
   {
     name: "Anirudh Manoj Pradhan",
     role: "Hospitality",
-    image: '/home/images/Anirudh.png',
+    image: '/images/Anirudh.png',
     linkedin: "https://www.linkedin.com/in/anirudh-pradhan-0635ab352",
     instagram: "https://www.instagram.com/mounsiuer_candie"
   },
   {
     name: "B. Thanmayee",
     role: "Hospitality",
-    image: '/home/images/Thanmayee.png',
+    image: '/images/Thanmayee.png',
     linkedin: "http://www.linkedin.com/in/thanmayeebolloju",
     instagram: "https://www.instagram.com/thanmayeeee.e"
   },
   {
     name: "Gayathri Gurram",
     role: "Hospitality",
-    image: '/home/images/Gayathri.png',
+    image: '/images/Gayathri.png',
     linkedin: "https://www.linkedin.com/in/gayathri-gurram-60a8b62a2",
     instagram: "https://www.instagram.com/gayathri0326"
   },
@@ -155,28 +155,28 @@ const teamMembers = [
   {
     name: "Aditya",
     role: "Treasury",
-    image: '/home/images/Aditya.png',
+    image: '/images/Aditya.png',
     linkedin: "https://www.linkedin.com/in/vaddeboina-akhil-7397bb310",
     instagram: "https://www.instagram.com/ahhkhil"
   },
   {
     name: "Sai Teja",
     role: "Treasury",
-    image: '/home/images/SaiTeja.png',
+    image: '/images/SaiTeja.png',
     instagram: "https://www.instagram.com/ruth/",
     linkedin: "https://www.linkedin.com/in/ruth/"
   },
   {
     name: "Koushik Reddy",
     role: "Treasury",
-    image: '/home/images/Koushik.png',
+    image: '/images/Koushik.png',
     instagram: "https://www.instagram.com/koushik/",
     linkedin: "https://www.linkedin.com/in/koushik/"
   },
   {
     name: "Venkat Ajay",
     role: "Treasury",
-    image: '/home/images/Ajay.png',
+    image: '/images/Ajay.png',
     linkedin: "https://www.linkedin.com/in/pulkam-venkata-ajay-94ab89351",
     instagram: "https://www.instagram.com/mrt_.stupid"
   },
@@ -185,14 +185,14 @@ const teamMembers = [
   {
     name: "A. Sriram",
     role: "Web Designing",
-    image: '/home/images/Sriram.png',
+    image: '/images/Sriram.png',
     linkedin: "https://www.linkedin.com/in/sriram-a-04b689338",
     instagram: "https://www.instagram.com/alukanti_sriram"
   },
   {
     name: "Deevaroy Komal",
     role: "Web Designing",
-    image: '/home/images/Komal.png',
+    image: '/images/Komal.png',
     linkedin: "https://in.linkedin.com/in/komal-deevaroy-661752279",
     instagram: "https://www.instagram.com/komaldeevaroy"
   },
@@ -201,14 +201,14 @@ const teamMembers = [
   {
     name: "Lohitaksh Paka",
     role: "Social Media Promotions",
-    image: '/home/images/Lohit.png',
+    image: '/images/Lohit.png',
     linkedin: "https://www.linkedin.com/in/lohitaksh-paka-6a0a312a4",
     instagram: "https://www.instagram.com/labyrinth_master"
   },
   {
     name: "N. Sai Bharati",
     role: "Social Media Promotions",
-    image: '/home/images/Bharathi.png',
+    image: '/images/Bharathi.png',
     linkedin: "https://www.linkedin.com/in/bharati-nallacheruvu-028a992a4",
     instagram: "https://www.instagram.com/bhaartea"
   }

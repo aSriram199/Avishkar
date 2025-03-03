@@ -3,10 +3,10 @@ import { Download } from 'lucide-react';
 const Sample = () => {
   const handleDownload = (fileType: string) => {
     const fileMap = {
-      'individual': '/home/samples/SampleAbstractIndividual.pdf',
-      'team': '/home/samples/SampleAbstractTeam.pdf',
-      'ppt': '/home/samples/SamplePPT.pptx',
-      'problems': '/home/samples/ProblemStatements.pdf'
+      'individual': '/samples/SampleAbstractIndividual.pdf',
+      'team': '/samples/SampleAbstractTeam.pdf',
+      'ppt': '/samples/ppt.pptx',
+      'problems': '/samples/ProblemStatements.pdf'
     };
 
     const filePath = fileMap[fileType as keyof typeof fileMap];
@@ -37,7 +37,7 @@ const Sample = () => {
                 preload="metadata"
                 playsInline
               >
-                <source src="/home/samples/video.mp4" type="video/mp4" />
+                <source src="/samples/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
