@@ -24,7 +24,7 @@ const Preloader = () => {
           }}
         >
           <img 
-            src="/Avishkar/logo/AVK_LOGO.png" 
+            src="/home/logo/AVK_LOGO.png" 
             alt="Loading Logo" 
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-auto z-[2] mb-3"
             style={{

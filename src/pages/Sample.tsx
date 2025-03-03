@@ -3,9 +3,9 @@ import { Download } from 'lucide-react';
 const Sample = () => {
   const handleDownload = (fileType: string) => {
     const fileMap = {
-      'individual': '/Avishkar/samples/SampleAbstractIndividual.pdf',
-      'team': '/Avishkar/samples/SampleAbstractTeam.pdf',
-      'ppt': '/Avishkar/samples/ppt.pptx',
+      'individual': '/home/samples/SampleAbstractIndividual.pdf',
+      'team': '/home/samples/SampleAbstractTeam.pdf',
+      'ppt': '/home/samples/SamplePPT.pptx',
       'problems': '/Avishkar/samples/ProblemStatements.pdf'
     };
 

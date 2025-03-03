@@ -5,43 +5,43 @@ const testimonials = [
   {
     name: 'Shreshta',
     role: 'Marketing',
-    image: '/Avishkar/images/Shreshta.png',
+    image: '/home/images/Shreshta.png',
     text: "Being part of Avishkar 2K24 was an incredible experience for me as a first-year student at VBIT. It gave me a chance to share my research and ideas, which greatly contributed to my academic and personal growth. The event inspired me to explore my field further and the feedback I received from judges and peers was valuable in improving my research and presentation skills. It also helped me overcome my fear of public speaking, boosting my confidence and encouraging me to explore my academic interests in greater depth."
   },
   {
     name: 'K. Geetha Bhagyasree',
     role: 'Documentation',
-    image: '/Avishkar/images/Geetha.png',
+    image: '/home/images/Geetha.png',
     text: "Avishkar 2K24 was a valuable experience that played a crucial role in building my confidence. My teammate and I worked on an innovative project focused on smart street lighting, aiming to enhance energy efficiency and automation. Throughout the event, we worked together to tackle challenges and refine our technical and analytical skills. Our efforts were recognized as we secured the 2nd position in the competition. This experience enhanced my understanding of real-world problem-solving and strengthened my ability to work as part of a team. Avishkar 2K24 provided an excellent platform to showcase creativity, acquire insights from others and gain valuable feedback. I am grateful for the opportunity."
   },
   {
     name: 'K. Sai Kiran',
     role: 'Documentation',
-    image: '/Avishkar/images/SaiKiran.jpeg',
+    image: '/home/images/SaiKiran.jpeg',
     text: "Participating in Avishkar 2K24 Technical Paper Presentation competition was an enriching experience that allowed me to showcase my research and technical knowledge. The event provided a platform to present innovative ideas, connect with individuals and receive valuable feedback. The event's well-structured format and engaging sessions made the experience both insightful and fulfilling. I am thankful for the opportunity to be part of this academic environment and am grateful for the experience of participating in Avishkar."
   },
   {
     name: 'Ruth G',
     role: 'Documentation',
-    image: '/Avishkar/images/Ruth.png',
+    image: '/home/images/Ruth.png',
     text: "Participating in the Technical Paper Presentation at Avishkar 2K24 was an intellectually enriching experience. It provided an excellent platform to present my research, receive insightful feedback and enhance both my technical knowledge and presentation skills. Interacting with distinguished judges and like-minded innovators offered valuable perspectives, enhancing my understanding of real-world applications. The event encouraged critical thinking, innovation and academic excellence, making it a truly enriching experience. I am grateful for the opportunity and the experience."
   },
   {
     name: 'Chiluka Deepa',
     role: 'Poster Designing',
-    image: '/Avishkar/images/Deepa.jpeg',
+    image: '/home/images/Deepa.jpeg',
     text: "I am delighted to share my experience with Avishkar 2K24 a technical paper presentation event that has significantly contributed to my academic and professional growth. Avishkar provides a unique platform for students to showcase their research, innovations and ideas, promoting critical thinking and problem-solving. Participating in Avishkar has been an enriching experience. The event focus on research and innovation motivated me to further explore my domain and share my findings with a knowledgeable audience. The feedback and insights from the judges and peers have been valuable in refining my research and presentation skills."
   },
   {
     name: 'K S Anirudh',
     role: 'Hospitality',
-    image: '/Avishkar/images/KSAnirudh.png',
+    image: '/home/images/KSAnirudh.png',
     text: "Avishkar 2K24 was an enriching experience for me as a first-year student. It provided a platform to explore emerging technologies, enhance my technical skills and develop innovative perspectives. The rigorous evaluation criteria emphasized precision and expertise, reinforcing their importance in my professional journey. Through this event, I gained valuable insights into areas for improvement and became familiar with professional presentation techniques. Avishkar serves as an invaluable opportunity for students eager to refine their skills and embrace technological advancements."
   },
   {
     name: 'B. Thanmayee',
     role: 'Hospitality',
-    image: '/Avishkar/images/Thanmayee.png',
+    image: '/home/images/Thanmayee.png',
     text: "Participating in Avishkar 2K24 has been a great experience, giving me a valuable opportunity to share my research and ideas on a prestigious platform. This event aims to encourage curiosity, innovation and critical thinking among students. Being part of Avishkar allowed me to explore my subject in greater detail, challenging me to think critically and present my findings clearly. The event helped improve my presentation skills while providing valuable feedback from experts and peers. The insights I gained have been valuable in refining my research approach and contributing to my academic development."
   }
 ];

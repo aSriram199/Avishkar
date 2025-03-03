@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 overflow-hidden">
-          <img src="/Avishkar/background/bg.png" alt="Background" className="w-full h-full object-cover" />
+          <img src="/home/background/bg.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/20 to-transparent"></div>
         </div>
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
               {/* Background Logo - increased size for mobile */}
               <div className="absolute left-1/2 top-[60%] -translate-x-1/2 -translate-y-1/2">
                 <img 
-                  src="/Avishkar/logo/AVK_LOGO.png"
+                  src="/home/logo/AVK_LOGO.png"
                   alt="AVK Logo Background" 
                   className="w-[300px] sm:w-[400px] h-[200px] sm:h-[220px] object-contain opacity-20"
                 />
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
               className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg"
             >
               <img
-                src="/Avishkar/footer/f1.jpg"
+                src="/home/footer/f1.jpg"
                 alt="Event 1"
                 className="w-full h-full object-cover"
               />
@@ -144,7 +144,7 @@ const Home: React.FC = () => {
               className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg"
             >
               <img
-                src="/Avishkar/footer/f2.jpg"
+                src="/home/footer/f2.jpg"
                 alt="Event 2"
                 className="w-full h-full object-cover"
               />
@@ -156,7 +156,7 @@ const Home: React.FC = () => {
               className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg"
             >
               <img
-                src="/Avishkar/footer/f3.jpg"
+                src="/home/footer/f3.jpg"
                 alt="Event 3"
                 className="w-full h-full object-cover"
               />
